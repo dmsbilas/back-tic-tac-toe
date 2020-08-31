@@ -20,4 +20,5 @@ The project will start running at localhost:3001 port
 4. npm run build
 5. npm start
 6. inside ./src/index.ts  change the port number according Frontends 
-port res.setHeader('Access-Control-Allow-Origin', 'http://localhost:8999');
+
+The project will start running at localhost:3000 port

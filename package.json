@@ -7,7 +7,7 @@
     "prebuild": "tslint -c tslint.json -p tsconfig.json --fix",
     "build": "tsc",
     "prestart": "npm run build && npm run test",
-    "start": "nodemon .",
+    "start": "nodemon ./dist/index.js",
     "test": "node_modules/.bin/jasmine-node ./dist/spec/api-read-write.spec.js --color"
   },
   "author": "Bilas Siddiq",

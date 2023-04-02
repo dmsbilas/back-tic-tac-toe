@@ -1,5 +1,4 @@
 import express from "express";
-import path from "path";
 import registeredRouters  from "./routes/register-routing-files";
 const app = express();
 const port = 3000; // default port to listen

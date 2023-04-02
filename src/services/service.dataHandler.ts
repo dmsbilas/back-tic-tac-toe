@@ -1,7 +1,6 @@
 import config from "../config";
 import {InterfaceDataHandler} from "../interfaces/interface.dataHandler";
-import * as fs from "fs";
-
+import fs from "express";
 export class ServiceDataHandler implements InterfaceDataHandler{
 
     private static dataHandler : ServiceDataHandler;

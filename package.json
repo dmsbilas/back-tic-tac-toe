@@ -8,7 +8,7 @@
     "build": "tsc",
     "prestart": "npm run build && npm run test",
     "start": "nodemon ./dist/index.js",
-    "test": "node_modules/.bin/jasmine-node ./dist/spec/api-read-write.spec.js --color"
+    "test": "node_modules/.bin/jasmine-node ./dist/spec/* --color"
   },
   "author": "Bilas Siddiq",
   "license": "ISC",
@@ -29,8 +29,6 @@
     "start-server-and-test": "^1.11.3"
   },
   "devDependencies": {
-    "@types/express": "^4.17.2",
-    "@types/node": "^13.7.0",
     "tslint": "^6.0.0",
     "typescript": "^3.7.5"
   }

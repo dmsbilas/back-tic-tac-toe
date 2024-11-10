@@ -5,7 +5,7 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
 Object.defineProperty(exports, "__esModule", { value: true });
 const express_1 = __importDefault(require("express"));
 const register_routing_files_1 = __importDefault(require("./routes/register-routing-files"));
-const app = express_1.default();
+const app = (0, express_1.default)();
 const port = 3000; // default port to listen
 const body_parser_1 = __importDefault(require("body-parser"));
 app.use(body_parser_1.default.json()); // support json encoded bodies
